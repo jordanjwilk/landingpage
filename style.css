@@ -1,0 +1,21 @@
+.pic1 {
+    height: 250px;
+    width: 350px;
+}
+
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+    height: 200px;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
