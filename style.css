@@ -1,6 +1,7 @@
 .pic1 {
     height: 250px;
-    width: 350px;
+    width: 500px;
+    
 }
 
 .pic2,
@@ -9,13 +10,120 @@
 .pic5 {
     height: 200px;
     width: 200px;
+    border-radius: 10px;
+    border: 5px #3882f6;
+    
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+height: 33vh;
+/*display: flex;
+flex: 1;*/
 }
 
 ul {
     list-style-type: none;
+    font-size: 18px;
+    font-weight:100;
+    display: flex;
+    gap: 8px;
 }
 
 a {
     text-decoration: none;
+    color: #e5e5e5;
 }
 
+.header {
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e5e5;
+    display: flex;
+    padding: 15px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    
+    
+}
+
+.header-1{
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e5e5;
+    font-weight: bolder;
+    
+
+}
+
+.text-1{
+    color: #e5e5e5;
+}
+
+.container-1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-up {
+    max-width: fit-content;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.title-2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fourimages {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.text-2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.box-3 {
+    background-color: #e5e5e5;
+    display: flex;
+    
+}
+
+.content-3 {
+    font-size: 36px;
+}
